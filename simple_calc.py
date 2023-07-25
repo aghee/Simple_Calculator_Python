@@ -1,4 +1,4 @@
-#Simple python calculator- Add, subtract, multiply, divide, modulo
+#Simple python calculator- Add, subtract, multiply, divide, modulo in that order
 def add(a,b):
     c=a+b
     return c
