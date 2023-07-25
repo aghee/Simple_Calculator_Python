@@ -19,7 +19,7 @@ while True:
             print('incorrect value,please try again!')
             continue
         if g=='1':
-            print(add(h,i))
+            print('The sum of the two numbers is',h ,'+', i ,'=' , add(h,i))
         elif g=='2':
             print(subtract(h,i))
         done_yet=input('are you done calculating? Y/N:')
