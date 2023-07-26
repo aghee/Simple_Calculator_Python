@@ -1,4 +1,5 @@
 #Simple python calculator- Add, subtract, multiply, divide, modulo in that order
+#branch created from main when main had two menu options only- add and subtract
 def add(a,b):
     c=a+b
     return c
