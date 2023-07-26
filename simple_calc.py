@@ -6,7 +6,7 @@
 #For some weird reason pull requests are no longer being created in remote when i push changes to branch. What could be the issue?
 #Testing again at 'contribute dropdown'
 #Sorted merge conflict
-#What happens when you close a pull request?
+#What happens when you close a pull request?-- Changes only remain on the branch and are not merged with main 
 def add(a,b):
     c=a+b
     return c
