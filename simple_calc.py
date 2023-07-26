@@ -1,5 +1,6 @@
 #Simple python calculator- Add, subtract, multiply, divide, modulo in that order
 #b1 branch created from main when main had two menu options only- add and subtract
+#Second branch from main created, b2, this branch is at the same status as the status that main was in at the time of creating the branch
 def add(a,b):
     c=a+b
     return c
