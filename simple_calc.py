@@ -3,7 +3,8 @@
 #Second branch from main created, b2, this branch is at the same status as the status that main was in at the time of creating the branch
 #Testing close pull request feature-push from b2
 #Testing close pull request feature-push from main
-#
+#For some weird reason pull requests are no longer being created in remote when i push changes to branch. What could be the issue?
+
 def add(a,b):
     c=a+b
     return c
