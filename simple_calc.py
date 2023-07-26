@@ -5,13 +5,26 @@ def add(a,b):
 def subtract(a,b):
     f=a-b
     return f
+def divide(a,b):
+    j=a/b
+    return j
+def multiply(a,b):
+    k=a*b
+    return k
+def modulo(a,b):
+    l=a%b
+    return l
 print('1.Add')
 print('2.Subtract')
+print('3.Divide')
+print('4.Multiply')
+print('5.Modulo')
+
 
 while True:
     g=input('enter choice from the menu listed!:')
 
-    if g in ('1','2'):
+    if g in ('1','2','3','4','5'):
         try:
             h=float(input('enter first number:'))
             i=float(input('enter second number:'))
