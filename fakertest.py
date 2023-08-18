@@ -1,3 +1,4 @@
+#Faker is a python package that generates fake data
 from faker import Faker
 fake = Faker()
 print(fake.name())
