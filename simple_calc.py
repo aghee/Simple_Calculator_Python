@@ -22,6 +22,7 @@ def multiply(a,b):
 def modulo(a,b):
     l=a%b
     return l
+
 print('1.Add')
 print('2.Subtract')
 print('3.Divide')
@@ -42,7 +43,13 @@ while True:
         if g=='1':
             print('The sum of the two numbers is',h ,'+', i ,'=' , add(h,i))
         elif g=='2':
-            print(subtract(h,i))
+            print('The difference is:', subtract(h,i))
+        elif g=='3':
+            print('Division of the two numbers is:',h ,'/', i, '=', divide(h,i))
+        elif g=='4':
+            print('Multiplication of the two numbers is:', h, '*',i,'=', multiply(h,i))
+        elif g=='5':
+            print('Remainder from the division of the two numbers is:', h ,'%',i,'=', modulo(h,i))
         done_yet=input('are you done calculating? Y/N:')
         if done_yet=='Y':
             break
